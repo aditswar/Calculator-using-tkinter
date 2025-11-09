@@ -32,7 +32,7 @@ display.pack(fill=X, pady=10)
 
 frame0 = Frame(root, borderwidth=6, background="black", highlightbackground="black")
 frame0.pack(anchor="w")
-branding = Label(frame0, text="CASIO", font="ROGFonts-Regular 28", bg="black", fg="light grey")
+branding = Label(frame0, text="PY-CALC", font="ROGFonts-Regular 28", bg="black", fg="light grey")
 branding.pack(side=LEFT)
 
 # da buttons
@@ -96,6 +96,7 @@ b3 = Button(frame4, text="=", font="Futura 35 bold", padx=13, pady=10)
 b3.bind("<Button-1>", click)
 b3.pack(side=LEFT)
 
+# a close button
 close = Button(text="Close", fg="purple", command=root.destroy, bg="white", highlightcolor="grey")
 close.pack(side=BOTTOM)
 root.mainloop()
