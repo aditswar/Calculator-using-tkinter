@@ -7,3 +7,7 @@ It supports basic arithmetic operations (addition, subtraction, multiplication, 
 - User-friendly GUI with buttons for digits and operations  
 - Handles basic arithmetic calculations  
 - Error handling for invalid operations (like division by zero)  
+
+## Current issues (fixing soon)
+- Button sizes arent responsive to be equal to each other
+- Code can be way simpler using loops for creating most buttons
